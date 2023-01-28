@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Lecture 10 tests">
+    <test name="Smoke Tests" >
+        <classes>
+            <class name="org.Tedi.Lecture10.TestClassTest"></class>
+        </classes>
+    </test>
+    <test name="Regression Tests">
+        <classes>
+            <class name="org.Tedi.Lecture10.HomeworkAnnotations"></class>
+            <class name="org.Tedi.Lecture10.ATestNGLifeCyclesTests"></class>
+        </classes>
+    </test>
+</suite>
